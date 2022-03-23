@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <nav>
+      <img class="logo" src="@/assets/logo.png">
       <router-link to="/">Home</router-link> |
       <router-link to="/english">English</router-link>
     </nav>
@@ -18,8 +19,9 @@
 }
 
 nav {
-  padding: 30px;
-
+  padding: 25px;
+  margin-right: 15%;
+  text-align: right;
   a {
     font-weight: bold;
     color: #2c3e50;
@@ -28,5 +30,10 @@ nav {
       color: #42b983;
     }
   }
+}
+.logo {
+  display: block;
+  max-width: 100px;
+  margin-left: 15%;
 }
 </style>

@@ -1,8 +1,5 @@
 <template>
   <div class="heroMain">
-    <div>
-    <img class="logo" src="@/assets/logo.png">
-    </div>
     <div class="heroMessage">
     <h1>{{heroMessage}}</h1>
     </div>
@@ -37,14 +34,11 @@ a {
 .heroMain {
   display: flex;
   justify-content: center;
-  padding-top: 15%;
-  height: 480px;
   background-image: url("@/assets/heroBackground.jpg");
   background-size: cover;
 }
 .heroMessage {
   display: block;
-  margin-left: 10%;
   font-family: 'Norican', sans-serif;
   font-size: xx-large;
   color: white;
