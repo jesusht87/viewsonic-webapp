@@ -52,15 +52,15 @@ export default {
   align-items: center;
   height: auto;
   padding-top: 50px;
-  padding-bottom: 15px;
 }
 .discoverZoneContainer {
   background-image: url("@/assets/discoverBg.jpg");
   background-size: cover;
   padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .discoverZoneTitle {
-  margin-top: 100px;
   margin-bottom: -20px;
   padding-top: 20px;
   padding-bottom: 20px;

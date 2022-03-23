@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'DateZone',
+  name: 'FeaturedZone',
   data () {
     return {
       featuredTextOne: 'Qué ver',

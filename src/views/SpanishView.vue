@@ -4,6 +4,7 @@
     <DateZone />
     <FeaturedZone />
     <DiscoverZone />
+    <CallToActionZone :message="'¿Has desayunado?'" :message2="'Descubre los sabores más auténticos de Ingenio escaneando el código QR con tu móvil. ¿Te animas?'"/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import HeroZone from '@/components/HeroZone.vue'
 import DateZone from '@/components/DateZone.vue'
 import FeaturedZone from '@/components/FeaturedZone.vue'
 import DiscoverZone from '@/components/DiscoverZone.vue'
+import CallToActionZone from '@/components/CallToActionZone.vue'
 
 export default {
   name: 'SpanishView',
@@ -20,7 +22,8 @@ export default {
     HeroZone,
     DateZone,
     FeaturedZone,
-    DiscoverZone
+    DiscoverZone,
+    CallToActionZone
   }
 }
 </script>
