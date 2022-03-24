@@ -1,9 +1,7 @@
 <template>
   <div class="dateZone">
     <div class="dateInfo">
-      {{getDate()}}  |  {{getHour()}}
-    </div>
-    <div class="elfsight-app-6d87e46d-f9aa-48fa-a49f-6f7c673da185 weatherInfo">
+      <h3> {{ hashtagMessage }} </h3>
     </div>
   </div>
 </template>
@@ -11,6 +9,9 @@
 <script>
 export default {
   name: 'DateZone',
+  props: {
+    hashtagMessage: String
+  },
   methods: {
     getDate () {
       const date = new Date()
@@ -28,17 +29,16 @@ export default {
 <style scoped lang="scss">
 .dateZone {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   height: auto;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 15px;
   background-image: url("@/assets/dateZoneBg.jpg");
   background-size: cover;
 }
 .dateInfo {
   display: block;
-  margin-left: 20%;
+  text-align: center;
   font-family: 'Fredoka', sans-serif;
   font-size: 50px;
   color: white;

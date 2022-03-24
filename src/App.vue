@@ -2,8 +2,9 @@
   <div id="app">
     <nav>
       <img class="logo" src="@/assets/logo.png">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/english">English</router-link>
+      <router-link to="/">🇪🇸 Español</router-link> |
+      <router-link to="/english">🇬🇧 English</router-link> |
+      <router-link to="/deutsch">🇩🇪 Deutsch</router-link>
     </nav>
     <router-view/>
   </div>
@@ -33,7 +34,7 @@ nav {
 }
 .logo {
   display: block;
-  max-width: 100px;
+  max-width: 150px;
   margin-left: 15%;
 }
 </style>

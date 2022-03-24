@@ -1,8 +1,8 @@
 <template>
   <div class="callToActionMain">
     <div class="callToActionMessageZone">
-      <h1>{{message}}</h1>
-      <h2>{{message2}}</h2>
+      <h2>{{message}}</h2>
+      <h4>{{message2}}</h4>
     </div>
   </div>
 </template>
@@ -22,10 +22,11 @@ export default {
 .callToActionMain {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  height: 960px;
+  margin-top: 10px;
+  height: 800px;
   background-image: url("@/assets/desayunos.jpg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .callToActionMessageZone {
   display: block;

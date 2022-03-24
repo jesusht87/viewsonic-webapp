@@ -34,18 +34,15 @@ a {
 .heroMain {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-image: url("@/assets/heroBackground.jpg");
   background-size: cover;
+  height: 450px;
 }
 .heroMessage {
   display: block;
   font-family: 'Norican', sans-serif;
   font-size: xx-large;
   color: white;
-}
-.logo {
-  display: block;
-  max-width: 350px;
-  margin-right: 10%;
 }
 </style>
